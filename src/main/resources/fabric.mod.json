@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "billuglow",
+  "version": "${version}",
+  "name": "BilluGlow",
+  "description": "Client-side command to outline-glow a chosen player in a custom color — visible only to you.",
+  "authors": [
+    "Adarsh"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.billuglow.BilluGlowClient"
+    ]
+  },
+  "mixins": [
+    "billuglow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
