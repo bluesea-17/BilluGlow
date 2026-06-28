@@ -11,7 +11,7 @@ public class BilluGlowCommand {
     public static void register() {
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
             dispatcher.register(
-                ClientCommandManager.literal("glow")
+                ClientCommandManager.literal("BilluGlow")
                     .then(ClientCommandManager.argument("player", StringArgumentType.word())
                         .executes(ctx -> {
                             String targetName = StringArgumentType.getString(ctx, "player");
@@ -32,3 +32,4 @@ public class BilluGlowCommand {
         });
     }
 }
+
