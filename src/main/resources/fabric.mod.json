@@ -3,7 +3,7 @@
   "id": "billuglow",
   "version": "${version}",
   "name": "BilluGlow",
-  "description": "Client-side command to outline-glow a chosen player in a custom color — visible only to you.",
+  "description": "Client-side command to outline-glow a chosen player in a custom color â€” visible only to you.",
   "authors": [
     "Adarsh"
   ],
@@ -12,7 +12,7 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "com.billuglow.BilluGlowClient"
+      "com.bluesea17.billuglow.BilluGlowClient"
     ]
   },
   "mixins": [
